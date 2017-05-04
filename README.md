@@ -14,9 +14,9 @@ won't take long.  If you're not quite that interested, my own summary follows.
 
 The Java version is about 5 times longer then Peter's python version.  Why is that?
 
-I include **more comments**, but this accounts for only about 20% of the difference.
+I include **more comments**, but this accounts for only about 16% of the difference.
 
-Support for **list comprehensions** in python accounted for a large part of the difference.
+Extra **utility methods** available in python but not in Java that I needed to add (DeepClone.java and StringUtils.java) accounted for about 33% of the difference.
 
-Finally, **utility methods** (DeepClone.java and StringUtils.java) accounted for about 34% of the difference.
+It's difficult to account for precisely, but I believe that the majority of the remaining 51% of the difference is accounted for by **list comprehensions** in python vs loops and streams in Java.
 
