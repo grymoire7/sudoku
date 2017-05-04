@@ -18,5 +18,5 @@ I include **more comments**, but this accounts for only about 16% of the differe
 
 Extra **utility methods** available in python but not in Java that I needed to add (DeepClone.java and StringUtils.java) accounted for about 33% of the difference.
 
-It's difficult to account for precisely, but I believe that the majority of the remaining 51% of the difference is accounted for by **list comprehensions** in python vs loops and streams in Java.
+It's difficult to account for precisely, but I believe that a large portion of the remaining 51% of the difference is accounted for by **list comprehensions** in python vs loops and streams in Java.
 
