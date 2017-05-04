@@ -14,9 +14,9 @@ won't take long.  If you're not quite that interested, my own summary follows.
 
 The Java version is about 5 times longer then Peter's python version.  Why is that?
 
-I include **more comments**, but this accounts for only about 16% of the new size.
+I include **more comments**, but this accounts for only about 20% of the difference.
 
 Support for **list comprehensions** in python accounted for a large part of the difference.
 
-Finally, **utility methods** accounted for the next largest share of the difference.
+Finally, **utility methods** (DeepClone.java and StringUtils.java) accounted for about 34% of the difference.
 
