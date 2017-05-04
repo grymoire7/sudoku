@@ -2,9 +2,9 @@
 Sudoku solvers
 
 ## Peter Norvig's Sudoku sovler in Java
-If you don't know, Peter Norvig wrote this nice Sudoku solver in less than 100
-lines of python code.  Reading through this annotated version of Peter's
-article is a great exercise for anyone trying to get a better grip on python.
+If you don't know, Peter Norvig wrote [this nice Sudoku solver](http://www.norvig.com/sudoku.html) in less than 100
+lines of python code.  Reading through [this annotated version](https://medium.com/towards-data-science/peter-norvigs-sudoku-solver-25779bb349ce) 
+of Peter's article is a great exercise for anyone trying to get a better grip on python.
 
 After reading those articles I wanted to see what this code would look like if
 ported to Java 8.  How much more code would be required?  Where and why would
